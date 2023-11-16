@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 11.3%;
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  width: 73.85%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  margin-right: 4px;
+  height: 45%;
+}
+#logo {
+  margin-right: auto;
+}
+.nav-list li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.nav-list li a:hover {
+  color: rgba(0, 0, 0, 0.996);
+}
+.nav-list li a {
+  margin: 0px 20px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.585);
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+span span {
+  font-size: 12px;
+}
+
+ul {
+  border-right: 1px solid black;
+}
+li:last-child {
+  margin-right: 15px;
+}
+.nav-buttons {
+  width: 20%;
+  height: 63%;
+}
+#nav-button-1 {
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+  border: none;
+  color: rgb(0 0 0 / 75%);
+  font-size: 16px;
+
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+#nav-button-2 {
+  width: 48%;
+  height: 100%;
+  border-radius: 25px;
+  border: 1.5px solid #0a66c2;
+  color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+}
+#nav-button-1:hover {
+  background-color: rgba(223, 219, 219, 0.267);
+}
+#nav-button-2:hover {
+  background-color: #0a66c214;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.left-section {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+  font-family: "Segoe UI";
+}
+.right-section {
+  width: 50%;
+  height: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: last baseline;
+}
+
+.left-section-container {
+  width: 75%;
+  height: 100%;
+  font-size: 56px;
+  font-weight: 200;
+  color: #8f5849;
+}
+
+.form-div {
+  width: 408px;
+  height: 434px;
+  margin-top: 24px;
+  font-size: 14px;
+  color: rgb(0 0 0 / 75%);
+}
+
+.first-input {
+  width: 100%;
+  height: 83px;
+  padding-top: 12px;
+}
+.first-input,
+.second-input label {
+  font-weight: 600;
+}
+.first-input input:hover,
+.second-input input:hover {
+  background-color: rgba(236, 232, 232, 0.433);
+  border: 2.2px solid black;
+}
+input {
+  margin-top: 8px;
+  width: 100%;
+  height: 54px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border-width: 0.2px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.second-input {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+.signup {
+  width: 100%;
+  height: 116px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.signup a {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #0a66c2;
+  font-weight: 600;
+  text-decoration: none;
+}
+.sign-in-button {
+  width: 98%;
+  margin-top: 16px;
+  height: 50px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #0a66c2;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.sign-in-button:hover {
+  background-color: #054381;
+}
+#forget-link:hover {
+  text-decoration: underline;
+  color: #044587;
+}
+.form-div hr {
+  width: 160px;
+  margin-top: 30px;
+}
